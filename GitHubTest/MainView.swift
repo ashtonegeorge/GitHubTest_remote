@@ -11,8 +11,14 @@ struct MainView: View {
     
     var body: some View {
         
-        Text("This is a test")
-            .padding()
+        ZStack {
+            
+            Rectangle()
+                .foregroundColor(.red)
+            
+            Text("This is a test")
+                .padding()
+        }
     }
 }
 
